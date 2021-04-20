@@ -1,5 +1,5 @@
 const baseUrl =
-  location.hostname === 'localhost'
+  window.location.hostname === 'localhost'
     ? 'http://localhost:2000'
     : 'https://flipcart-rest-server.herokuapp.com'
 
